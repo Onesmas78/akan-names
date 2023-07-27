@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image:url('/africa.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Styling for the centered text */
+  .hero-text {
+    text-align: center;
+    padding-top: 400px; /* Adjust the padding as needed to center the content */
+    color: white; /* Text color for the centered content */
+  }
+  
+  /* Style for H1 element in hero-text */
+  .hero-text h1 {
+    color: rgb(250, 247, 248);
+  }
+  
+  /* Style for H2 element in hero-text */
+  .hero-text h2 {
+    color: white;
+  }
+  
+  /* Style for paragraph elements in hero-text */
+  .hero-text p {
+    color: white;
+  }
