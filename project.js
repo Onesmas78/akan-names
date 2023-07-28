@@ -5,22 +5,7 @@ function onSubmit(event) {
     const month = parseInt(document.getElementById("month").value);
     let hasErrors=false;
   console.log(month);
-  
-    // Checking if the day and month are within valid ranges
-    if (day <= 0 || day > 31) {
-      alert("Invalid day. Please enter a valid day (1 to 31).");
-      hasErrors=true;
-  
-    }
-    if(month <= 0 || month > 12) {
-      alert("Invalid month. Please enter a valid month (1 to 12).");
-      hasErrors=true;
-    }
-    if(!hasErrors){
-      calculateAndDisplayAkanName(day, month, gender) 
-    }
-  
-  }
+
   // If the input is valid, proceed with the Akan name calculation
   const gender = document.getElementById("gender").value;
   // Calling the function to calculate the day of the week and display the Akan name
